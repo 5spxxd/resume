@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    background-image: url('resume.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: contain;
+    background-position: center;
+    
+}
+
+
+.profile-photo {
+    width: 200px;
+    height: 200px; 
+    border-radius: 55px;
+   object-fit: cover;
+    position: relative;
+    top: -165px;
+    left: 0px;
+}
+
+
+
+.social-media {
+    margin-top: 10px;
+    color: white;
+}
+
+
+
+.FirstName{
+    color: white;
+    font-size: 100px;
+    position: relative;
+    top: -110px;
+    
+}
+.SirName{
+    color: white;
+    position: relative;
+    margin-left: 970px;
+    top: -250px;
+    font-size: 30px;
+
+    
+}
+
+.social-media {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons a {
+    font-size: 50px;
+    color: #555;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+   
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    position: relative;
+    top: -510px;
+    left: -320px;
+}
+
+.button:hover {
+    background-color:darkblue
+}
